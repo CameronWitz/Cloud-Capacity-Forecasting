@@ -1,0 +1,19 @@
+In this folder are the deliverables for the ORACLE Senior Design team:
+
+capacity_planning.py
+
+This script houses the simulation functions and objects that are used to determine
+order quantities at different points in time. There is commented documentation throughout
+the file, and examples of usage in the Capacity Planning python notebook.
+
+sensitivity_analysis.py
+
+This script holds two functions, and relies internally on the files in capacity_planning.py. The "sensitivity_values" function conducts a factorial experiment on the data given user specified inputs. Examples for usage can be found in the Sensitivity Analysis python notebook. Data can be exported to csv, and analyzed later, or directly analyzed with our "analysis" function which employs a simple linear regression on the output from "sensitivity_values". Our analysis is simple, and we believe further work should be done in the future to explore more complex relationships in the data. 
+
+Capacity Planning (ALL Datasets).ipynb
+
+This is the jupyter notebook that houses examples of how to test our simulation model on various datasets, to see how it would have stocked capacity if it were used to make order decisions. There is an additional example at the end which shows how to use the model to make a one week ahead recommendation on how much additional capacity to order. 
+
+Sensitivity Analysis.ipynb
+
+This jupyter notebook houses an example of how to generate data for analysis, and how to actually conduct a sensitivity analysis using the methods described in sensitivity_analysis.py.
