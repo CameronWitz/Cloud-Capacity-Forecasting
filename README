@@ -1,4 +1,8 @@
-In this folder are the deliverables from my Northwestern Senior Design Project, all code was written by myself (Cameron Witz):
+All files detailed below written by myself (Cameron Witz). This project aimed at providing a means of analyzing risk in the realm of
+providing sufficient server space for customers of a cloud storage company. The company wanted the ability to simulate future 
+demand in order to stock enough storage capacity to meet a cycle service level of 99%. The underlying model is based on 
+the ARIMA forecasting method, with some customization and parameter selection performed ad hoc. There are many parameters to 
+fine tune in order to achieve confident forecasting for different datacenters with wildly different demand behavior. 
 
 capacity_planning.py
 
